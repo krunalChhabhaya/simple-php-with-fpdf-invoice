@@ -1,0 +1,74 @@
+* {
+    transition: ease all 0.5s !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Sen', sans-serif !important;
+}
+
+body {
+    background-color: #fdfcfc !important;
+}
+
+.sidebar {
+    background-color: #070402 !important;
+    height: 100vh !important;
+}
+
+.company-name {
+    color: #faca16 !important;
+    font-size: 28px !important;
+    padding-top: 30px !important;
+}
+
+.admin-details {
+    padding-top: 15px !important;
+    color: #fdfcfc !important;
+}
+
+.active {
+    color: #faca16 !important;
+}
+
+.admin-image {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    margin-right: 10px !important;
+}
+
+.nav-link {
+    color: #fdfcfc !important;
+}
+
+.main-content {
+    padding-top: 50px !important;
+}
+
+.table-responsive {
+    padding-top: 20px !important;
+}
+
+th {
+    background-color: lightgray !important;
+}
+
+@media (max-width: 767px) {
+    .col-md-3 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .col-md-9 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .nav-link {
+        border-top: 1px solid wheat;
+    }
+
+    .sidebar {
+        height: 100% !important;
+    }
+}
